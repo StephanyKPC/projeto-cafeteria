@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Courgette&display=swap');  
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-page h1 {
+    font-family: 'Amita', cursive;
+}
+  
+.home-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #49111c;
+    padding: 10px;
+}
+  
+.home-title h2 {
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.home-page main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page p {
+    font-size: large;
+    text-align: center;
+}
+
+.home-page button {
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #a9927d;
+    cursor: pointer;
+    font-size: large;
+    text-align: center;
+    min-width: 50px;
+    color: #f2f4f3;
+    margin: 80px 25px;
+}
+  
+.home-page button:hover {
+    background-color: #5e503f;
+}

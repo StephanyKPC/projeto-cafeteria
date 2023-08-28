@@ -1,0 +1,47 @@
+.list-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-page h1 {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.coffee-card {
+    background-color: rgba(0, 0, 0, 0.42);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    height: 8vh;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.coffee-card:hover {
+    color: rgb(210, 208, 208);
+}
+
+.coffee-card h3 {
+    font-style: italic;
+}
+
+.list-page main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coffee-page {
+    text-align: center;
+    width: 100%;
+}
